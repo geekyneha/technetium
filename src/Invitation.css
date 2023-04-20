@@ -1,0 +1,21 @@
+*{
+    font-size: 20px;
+   
+}
+body{
+    padding: 20px;
+}
+.Recipient{
+    line-height: 7px;
+    
+}
+.Color-red{
+    color: red;
+    font-weight:bold;
+}
+.Content-matter{
+    padding-right: 41vw;
+}
+.Regards{
+    line-height: 7px;
+}
