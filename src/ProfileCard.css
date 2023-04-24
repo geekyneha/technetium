@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(235, 139, 190)
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+.profile-card{
+    background-color: rgb(130, 93, 166);
+    padding: 3rem;
+    font-family: 'Roboto';
+    padding: 80px;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 19vw;
+}
+
+.img{
+    border-radius: 180px;
+    border: 6px solid white;
+    width: 100px;
+    height: 100px;
+}
+.designation{
+    font-weight: 200;
+}
+  
+
+
+.see-more{
+    padding: 10px 20px;
+    color:   wheat; ;
+    background-color: rgb(29, 13, 45);;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+}
