@@ -1,0 +1,44 @@
+input{
+    width: 10%;
+    height: 30%;
+    display: block;
+    width: 200px;
+    padding:8px;
+    padding-left:20px;
+    ;
+    border-radius: 20px;
+    margin:auto;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+button{
+    padding: 7px 15px ;
+    color: blanchedalmond;
+    background-color: cadetblue;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+   
+    
+
+}
+.container{
+ padding:120px 30px;
+ 
+  border-radius: 20px;
+    background-color: rgb(199, 192, 192);
+}
+.error{
+    font-size: 14px;
+    color: red;
+    margin: 80px;
+}
+.success{
+    font-size: 14px;
+    color: green;
+}
+h3{
+    color: black;
+}
