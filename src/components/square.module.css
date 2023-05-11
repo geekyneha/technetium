@@ -1,0 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+.square{
+    width: 20vh;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    background-color: #2A2F4F;
+    font-size: 7rem;
+    color: white;
+    font-family:'Darumadrop One', cursive;
+    padding:30%;
+
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+   
+}

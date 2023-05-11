@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+.start{
+    color: #FDE2F3;
+    font-family:'Darumadrop One', cursive;
+    align-self: center;
+    background-color: #917FB3;
+    padding: 0.5rem 6rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5em;
+    margin-left: 3em;
+}
+.game{
+    font-family: 'Sigmar', cursive;
+    font-size:4rem;
+    font-weight:bold;
+    color:#2A2F4F;
+    font-weight: bold;
+    margin-left: 1.5em;
+}
