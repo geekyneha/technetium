@@ -1,0 +1,35 @@
+.card{
+  
+    background-color: #f1f6fa;;
+    min-height :200px;
+    min-width: 300px;
+    border-radius: 12px;
+    margin-right:2rem;
+    text-align: center;
+    padding: 40px 0 ;
+ 
+  
+  }
+ 
+  
+  img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  p{
+    font: inherit;
+    line-height: 17px;
+  }
+
+  .name{
+    font-weight: bold;
+
+  }
+  .exp{
+    color: blue;
+  }
+  .prof{
+    font-size: 18px;
+  }
+  
