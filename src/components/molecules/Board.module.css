@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.board{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+width: 40vw;
+height: 80vh;
+background-color: rgb(244, 202, 35);
+margin: 4rem;
+
+
+}
