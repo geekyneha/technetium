@@ -12,7 +12,7 @@ export default function Hero(){
 
        </div>
        <div className={style.img}>
-        <img src="https://lh3.googleusercontent.com/M85HTGkvDEPxh9pntGCx-fu3B7qK9CfYRYuCUXjg1tQxTowFq8X8wyM7Y7Y3VbX9R8VCuplU4mYp-X50FpUgKFRMS8HWz0i0IkHD0XE" />
+        <img src="https://media.gettyimages.com/id/821490220/photo/young-woman-using-smart-phone-at-night-on-street.jpg?s=1024x1024&w=gi&k=20&c=rNXkdZRQcFE5orAh0gEXTtSQfFYws_l2i2BQ8kn7vL0=" alt="unavailable"/>
        </div>
        </div>
 
