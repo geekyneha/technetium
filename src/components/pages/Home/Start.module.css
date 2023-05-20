@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.button{
+    padding: 15px 50px;
+    border: none;
+    text-align: center;
+    background-color: rgb(40, 30, 50);
+    font-size: 2rem;
+}

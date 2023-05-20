@@ -1,36 +1,55 @@
-.questionCard{
-    background-color:#fff;
-    padding: 2rem;
-    width: 80%;
-    margin: auto;
-    border-radius: 16px;
-    color: black;
-    height: auto;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
 }
-ul{
-    list-style: none;
-    width: 50%;
-    margin: auto;
+.heading {
+  margin-top: 100px;
 }
-li{
-    background-color: rgb(110, 82, 137);
-    padding: 16px;
-    border: none;
-    border-radius: 1rem;
-    border:3px solid white;
-    font-size:1.3rem;
-    margin-top: 8px;
-    color: #fff;
-    
+
+.quiz {
+  text-align: center;
 }
-.questionText
-{
-    color: cadetblue;
+.questionCard {
+  background-color: #fff;
+  padding: 2rem;
+  width: 80%;
+  margin: auto;
+  border-radius: 16px;
+  color: black;
+  height: auto;
 }
-button{
-    padding: 1rem;
-    border-radius: 1rem;
-    border: none;
-    color: #fff;
-    background-color: red;
+ul {
+  list-style: none;
+  width: 50%;
+  margin: auto;
+}
+.opt:hover {
+  background-color: rgb(40, 30, 50);
+}
+
+.opt {
+  background-color: rgb(110, 82, 137);
+  padding: 16px;
+  border: none;
+  border-radius: 1rem;
+  border: 3px solid white;
+  font-size: 2rem;
+  margin-top: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.score {
+  color: green;
+}
+button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 2rem;
+
+  background-color: rgb(117, 193, 46);
 }
