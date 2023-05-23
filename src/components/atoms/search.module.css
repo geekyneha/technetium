@@ -2,7 +2,34 @@
     width: 25vw;
     padding:1rem 2rem;
     border-radius:30px;
-    margin:5rem;
+    margin-top:5rem;
     font-size: 1.2rem;
+    border: 1px solid silver;
+    
 
 }
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: 28%;
+    margin: auto;
+    border-radius:0 0 5% 5%;
+    background-color: #fff;
+}
+.auto{
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0;
+
+    
+}
+p{
+    padding: 2%;
+}
+.auto:hover{
+    background-color: rgb(234, 226, 218);
+}
+body{
+    background: linear-gradient(90deg,#2f5490  0%,#2fa94f 30%, #f7c940 50%,#ea4335);
+    
+  }

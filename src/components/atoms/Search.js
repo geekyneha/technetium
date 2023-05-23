@@ -1,45 +1,52 @@
-import React, { useState } from 'react'
-import styles from "./search.module.css"
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import styles from './search.module.css';
 
 function Search() {
-  const [input, setInput] = useState("");
-  const [disInput, setDisInput] = useState("");
+  const [input, setInput] = useState('');
+  const [disInput, setDisInput] = useState('');
+  const [states, setStates] = useState([]);
 
-  const arr = ["Neha khan", "Neha Khanam", "Nehaaa Nea ", "Neon ", "New"]
+  useEffect(() => {
+    axios.get('http://cdn-api.co-vin.in/api/v2/admin/location/states')
+      .then((response) => {
+        const stateNames = response.data.states.map((state) => state.state_name);
+        setStates(stateNames);
+      })
+      .catch((error) => {
+        console.error('Error retrieving states:', error);
+      });
+  }, []);
 
   function showInput(e) {
-    const userInput = e.target.value
-    setInput(userInput)
+    const userInput = e.target.value;
+    setInput(userInput);
 
-    if (arr.includes(userInput)) {
-      setDisInput(userInput)
+    if (states.includes(userInput)) {
+      setDisInput(userInput);
+    } else {
+      setDisInput('');
     }
-    else {
-      setDisInput("");
-    }
-
-
   }
+
   function getFilteredResults() {
-    return arr.filter((match) => match.includes(input))
+    return states.filter((state) => state.includes(input));
   }
-
 
   return (
     <>
       <input className={styles.input} value={input} onChange={(e) => showInput(e)} />
-      <div>{input}</div>
+      
       <div>
-        <div>
-          {input && getFilteredResults().map((match) => (
-            <div key={match}>{match}</div>
+        <div className={styles.box} >
+        <p className={styles.auto}>{input}</p>
+          {input && getFilteredResults().map((state) => (
+            <p className={styles.auto} key={state}>{state}</p>
           ))}
         </div>
       </div>
-
     </>
-
-  )
+  );
 }
 
-export default Search
+export default Search;
