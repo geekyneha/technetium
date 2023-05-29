@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    gap: 2rem;
+    align-items: center;
+    margin: 20% 0;
+    background-color: rgb(68, 72, 195);
+    padding: 30% 0;
+    border-radius: 5%;
+  
+
+
+}
+.input{
+    font-size: 1.2rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    width: 60%;
+}
+.button{
+    padding: 3% 10%;
+    border-radius: 20px;
+}
