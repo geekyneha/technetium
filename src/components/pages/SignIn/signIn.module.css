@@ -1,24 +1,38 @@
+/* 
+
+.signIN{
+    display: flex;
+    justify-content: center;
+    max-width: 100vh;
+    max-height:100vh ;
+    }
+
+*/
+
+
+.input{
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem;
+    border-radius: 20px;
+    width: 60%;
+}
 .container{
     display: flex;
     flex-direction: column;
-    width: 50vh;
+    max-width: 50vh;
     gap: 2rem;
     align-items: center;
-    margin: 20% 0;
+    margin: 15px;
     background-color: rgb(68, 72, 195);
-    padding: 30% 0;
+    padding: 10% 4px;
     border-radius: 5%;
+    margin: auto
+    
   
 
 
 }
-.input{
-    font-size: 1.2rem;
-    padding: 0.5rem 1.2rem;
-    border-radius: 20px;
-    width: 60%;
-}
 .button{
     padding: 3% 10%;
     border-radius: 20px;
-}
+} 
